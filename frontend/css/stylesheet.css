@@ -33,12 +33,24 @@
 3. Citation
 ==================================================
 \************************************************/
+
+nav {
+  background-color: black;
+  border-bottom: solid 5px #a57824;
+  border-radius: 6px;
+}
+
+nav img {
+  max-height: 100px;
+  width: auto;
+}
+
 .kaamelott-underline {
   border-bottom: solid 5px #a57824;
 }
 
 .kaamelott-banner.jumbotron {
-  background-image: url('/img/kaamelott-banner.jpg');
+  background-image: url('/Users/Piotr____/Desktop/WCS/Checkpoints/bordeaux-fev2017-checkpoint-1/frontend/img/kaamelott-banner.jpg');
   background-position: top center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -102,6 +114,15 @@ blockquote {
 
 .btn.btn-kaamelott:hover {
   background-color: #996f21;
+}
+
+.fa {
+    display: inline-block;
+    margin: 10px;
+}
+
+.icon {
+ text-align: center;
 }
 
 
